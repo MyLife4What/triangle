@@ -13,7 +13,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 2. Run the tests using code coverage, then generate an html coverage report:
    ```bash
-   coverage run -u unittest triange_test.py
+   coverage run -m unittest triangle_test.py
    coverage html
    ```
 
@@ -27,7 +27,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 6. Run coverage again with the `--branch` option to see if all branches of "if" statements are covered:
    ```bash
-   coverage run --branch -u unittest triange_test.py
+   coverage run --branch -m unittest triangle_test.py
    coverage html
    ```
 
