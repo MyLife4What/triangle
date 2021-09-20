@@ -36,7 +36,7 @@ Use code coverage to find untested code and a problem with the tests.
 
 8. Normally, **all** the lines of test code should be executed.  When some part of test code is not executed it may indicate a problem with the tests.  Explain the problem in the unit test code. (write you answer below).
 
-   Answer: If some part of test code is not executed, it may because some tests may not meet the desired point, so it does not test. 
+   Answer: If some part of test code is not executed. It may be because your test fails once, so it will not run the rest test.
 
 When done, **push your work to Github, including your changes to README**.
 
